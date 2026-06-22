@@ -7,7 +7,6 @@ export default function Cadastro() {
       <p className="text-gray-600">Encontrou um local com boa acessibilidade ou que precisa urgentemente de reformas? Envie para nós!</p>
       
       <div className="grid md:grid-cols-2 gap-8 items-start">
-        {/* Formulário Interativo */}
         <form className="bg-white p-6 rounded-lg shadow border border-gray-200 space-y-4" onSubmit={(e) => e.preventDefault()}>
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">Nome do Local</label>
@@ -21,7 +20,7 @@ export default function Cadastro() {
               <option>Inacessível</option>
             </select>
           </div>
-          <button type="submit" className="w-full bg-blue-600 text-white font-bold py-2 rounded">Enviar</button>
+          <button type="submit" className="w-full bg-blue-600 text-white font-bold py-2 rounded">Enviar Sugestão</button>
         </form>
         <div>
           <img 
