@@ -10,6 +10,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="pt-BR">
       <body className="bg-gray-50 text-gray-800 min-h-screen flex flex-col">
+        {/* Barra de Navegação global */}
         <header className="bg-blue-600 text-white shadow-md">
           <nav className="container mx-auto p-4 flex justify-between items-center">
             <h1 className="text-xl font-bold tracking-wide">AcessaUrbano</h1>
@@ -22,11 +23,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </nav>
         </header>
 
+        {/* Conteúdo dinâmico das páginas */}
         <main className="flex-grow container mx-auto p-6">
           {children}
         </main>
 
-        <footer className="bg-gray-800 text-white text-center p-4 text-sm">
+        {/* Rodapé global */}
+        <footer className="bg-gray-800 text-white text-center p-4 text-sm mt-8">
           <p>&copy; 2026 Projeto AcessaUrbano. Desenvolvido para a AV3.</p>
         </footer>
       </body>
