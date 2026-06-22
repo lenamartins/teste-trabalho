@@ -8,6 +8,7 @@ export default function Locais() {
   return (
     <div className="space-y-6">
       <h2 className="text-3xl font-bold text-gray-800 border-b pb-2">Locais Mapeados</h2>
+      <p className="text-gray-600">Veja a situação atual de acessibilidade em alguns pontos principais consultados pela comunidade:</p>
       <div className="grid md:grid-cols-3 gap-6">
         {locais.map((local) => (
           <div key={local.id} className="bg-white rounded-lg shadow overflow-hidden border border-gray-200">
