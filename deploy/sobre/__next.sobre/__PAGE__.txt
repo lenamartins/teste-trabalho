@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[87683,["/_next/static/chunks/3hfv6sq_krzy_.js","/_next/static/chunks/2-xrd19on-97z.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+:HL["https://images.unsplash.com/photo-1531206715517-5c0ba140e2b8?auto=format&fit=crop&w=500&q=80","image"]
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto space-y-6 my-4","children":[["$","h2",null,{"className":"text-3xl font-bold text-gray-800","children":"Sobre o Projeto"}],["$","div",null,{"className":"flex flex-col md:flex-row gap-6 items-center","children":[["$","p",null,{"className":"text-gray-600 leading-relaxed md:w-1/2","children":"Este sistema nasceu como uma iniciativa estudantil para a disciplina de Desenvolvimento Web. Nosso objetivo é dar visibilidade aos obstáculos enfrentados diariamente por pessoas com deficiência (PCD) ou mobilidade reduzida, cobrando melhorias nas infraestruturas urbanas."}],["$","div",null,{"className":"md:w-1/2","children":["$","img",null,{"src":"https://images.unsplash.com/photo-1531206715517-5c0ba140e2b8?auto=format&fit=crop&w=500&q=80","alt":"Estudantes colaborando","className":"rounded-lg shadow border"}]}]]}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"DClVCBj2XfYXuguQGF0Qi"}
+4:null
